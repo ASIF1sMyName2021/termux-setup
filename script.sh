@@ -12,7 +12,6 @@ printf ""
 
 # Setup the termux storage
 termux-setup-storage
-rm -r ~/storage
 
 # Update the temux repository
 pkg update
