@@ -35,6 +35,7 @@ clear
 
 # Install 2048
 \cp files/2048 ~/../usr/bin/
+chmod +x ~/../usr/bin/2048
 
 # Clear the terminal
 clear
