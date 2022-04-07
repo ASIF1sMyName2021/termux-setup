@@ -33,6 +33,9 @@ clear
 # Change the shell prompt style
 \cp files/bash.bashrc ~/../usr/etc/
 
+# Install 2048
+\cp files/2048 ~/../usr/bin/
+
 # Clear the terminal
 clear
 
