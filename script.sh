@@ -14,10 +14,10 @@ printf ""
 termux-setup-storage
 
 # Update the temux repository
-pkg update
+pkg update -y
 
 # Install micro text editor
-pkg install micro
+pkg install micro -y
 
 # Clear the terminal
 clear
