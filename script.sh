@@ -33,10 +33,6 @@ clear
 # Change the shell prompt style
 \cp files/bash.bashrc ~/../usr/etc/
 
-# Install Proot Distro
-pkg install proot-distro
-proot-distro install ubuntu
-
 # Clear the terminal
 clear
 
