@@ -13,12 +13,6 @@ printf ""
 # Setup the termux storage
 termux-setup-storage
 
-# Update the temux repository
-pkg update -y
-
-# Install micro text editor
-pkg install micro -y
-
 # Clear the terminal
 clear
 
