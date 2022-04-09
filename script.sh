@@ -13,6 +13,9 @@ printf ""
 # Setup the termux storage
 termux-setup-storage
 
+# Install Necessary Softwares
+pkg install micro vim glow clang -y
+
 # Clear the terminal
 clear
 
