@@ -14,7 +14,7 @@ printf ""
 termux-setup-storage
 
 # Install Necessary Softwares
-pkg install micro vim glow gitui clang -y
+pkg install micro vim glow clang -y
 
 # Clear the terminal
 clear
