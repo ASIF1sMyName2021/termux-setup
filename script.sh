@@ -14,7 +14,12 @@ printf ""
 termux-setup-storage
 
 # Install Necessary Softwares
-pkg install micro vim glow ranger tmux clang -y
+pkg install micro glow ranger tmux clang -y
+
+# Install and setup vim
+pkg install vim
+\cp files/.vimrc ~/
+\cp -r files/.vim ~/
 
 # Clear the terminal
 clear
