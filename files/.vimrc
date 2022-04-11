@@ -40,3 +40,9 @@ hi InsertColor guifg=Black guibg=Cyan ctermbg=180 ctermfg=0
 hi ReplaceColor guifg=Black guibg=maroon1 ctermbg=165 ctermfg=0
 hi VisualColor guifg=Black guibg=Orange ctermbg=202 ctermfg=0
 
+
+" Vim Plugin-Manager
+call plug#begin()
+
+call plug#end()
+" (use command :PlugInstall)
