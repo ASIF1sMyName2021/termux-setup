@@ -17,7 +17,7 @@ termux-setup-storage
 pkg install micro glow ranger tmux clang -y
 
 # Install and setup vim
-pkg install vim
+pkg install vim -y
 \cp files/.vimrc ~/
 \cp -r files/.vim ~/
 
