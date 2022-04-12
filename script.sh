@@ -13,9 +13,6 @@ printf ""
 # Setup the termux storage
 termux-setup-storage
 
-# Install Necessary Softwares
-pkg install glow clang -y
-
 # Install and setup vim
 pkg install vim -y
 \cp files/.vimrc ~/
