@@ -14,7 +14,7 @@ printf ""
 termux-setup-storage
 
 # Install Necessary Softwares
-pkg install micro glow ranger -y
+pkg install glow clang -y
 
 # Install and setup vim
 pkg install vim -y
