@@ -14,7 +14,7 @@ printf ""
 termux-setup-storage
 
 # Install Necessary Softwares
-pkg install micro glow ranger clang -y
+pkg install micro glow ranger -y
 
 # Install and setup vim
 pkg install vim -y
@@ -24,6 +24,23 @@ pkg install vim -y
 # Install and setup tmux
 pkg install tmux -y
 \cp files/.tmux.conf ~/
+
+# Clear the terminal
+clear
+
+# Decide whether to Install clang
+while true; do
+
+printf "\e[1;31m Do you want to install clang?(y/n): \e[0m\n"
+read yn
+case $yn in 
+	y ) pkg install clang -y;
+		break;;
+	n ) echo clang will not be installed...;
+		exit;;
+	* ) echo invalid response;;
+esac
+done
 
 # Clear the terminal
 clear
