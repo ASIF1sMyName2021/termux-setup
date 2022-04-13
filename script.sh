@@ -22,6 +22,9 @@ pkg install vim -y
 pkg install tmux -y
 \cp files/.tmux.conf ~/
 
+# Install NNN
+pkg install nnn -y
+
 # Clear the terminal
 clear
 
