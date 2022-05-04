@@ -13,18 +13,6 @@ printf ""
 # Setup the termux storage
 termux-setup-storage
 
-# Install and setup vim
-pkg install vim -y
-\cp files/.vimrc ~/
-\cp -r files/.vim ~/
-
-# Install and setup tmux
-pkg install tmux -y
-\cp files/.tmux.conf ~/
-
-# Install NNN
-pkg install nnn -y
-
 # Clear the terminal
 clear
 
@@ -42,10 +30,6 @@ clear
 # Install 2048
 \cp files/2048 ~/../usr/bin/
 chmod +x ~/../usr/bin/2048
-
-# Create 'ubuntu' shortcut
-\cp files/ubuntu ~/../usr/bin/
-chmod +x ~/../usr/bin/ubuntu
 
 # Clear the terminal
 clear
