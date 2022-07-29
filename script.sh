@@ -31,6 +31,10 @@ clear
 \cp files/2048 ~/../usr/bin/
 chmod +x ~/../usr/bin/2048
 
+# Install tstyle
+\cp files/tstyle ~/../usr/bin/
+chmod +x ~/../usr/bin/tstyle
+
 # Clear the terminal
 clear
 
