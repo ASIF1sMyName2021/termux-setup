@@ -35,6 +35,10 @@ chmod +x ~/../usr/bin/2048
 \cp files/tstyle ~/../usr/bin/
 chmod +x ~/../usr/bin/tstyle
 
+# Install Prompt.sh
+\cp files/.prompt.sh ~/
+chmod +x ~/.prompt.sh
+
 # Ubuntu Starter
 \cp files/ubuntu ~/../usr/bin/
 chmod +x ~/../usr/bin/ubuntu
