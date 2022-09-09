@@ -35,6 +35,10 @@ chmod +x ~/../usr/bin/2048
 \cp files/tstyle ~/../usr/bin/
 chmod +x ~/../usr/bin/tstyle
 
+# Ubuntu Starter
+\cp files/ubuntu ~/../usr/bin/
+chmod +x ~/../usr/bin/ubuntu
+
 # Clear the terminal
 clear
 
