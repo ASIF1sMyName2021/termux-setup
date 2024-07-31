@@ -9,7 +9,7 @@ __powerline() {
 
     if [[ -z "$PS_SYMBOL" ]]; then
       case "$(uname)" in
-          Linux)    PS_SYMBOL='<>';;
+          Linux)    PS_SYMBOL='$';;
           *)        PS_SYMBOL='%';;
       esac
     fi
