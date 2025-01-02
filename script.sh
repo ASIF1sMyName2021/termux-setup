@@ -18,8 +18,6 @@ clear
 
 # Setup the .termux directory 
 \cp files/termux.properties ~/.termux/
-\cp files/colors.properties ~/.termux/
-\cp files/font.ttf ~/.termux/
 
 # Change the Termux welcome text
 \cp files/motd ~/../usr/etc/
@@ -30,10 +28,6 @@ clear
 # Install 2048
 \cp files/2048 ~/../usr/bin/
 chmod +x ~/../usr/bin/2048
-
-# Install tstyle
-\cp files/tstyle ~/../usr/bin/
-chmod +x ~/../usr/bin/tstyle
 
 # Install Prompt.sh
 \cp files/.prompt.sh ~/
