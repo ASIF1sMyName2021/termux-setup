@@ -11,15 +11,6 @@ PROMPT_DIRTRIM=2
 # Bash Prompt
 source ~/.prompt.sh
 
-# List the files in Home Directory
-ls
-
-# Print a line based on scenario
-path=$(ls ~)
-if [[ ! -z "$path" ]]; then
-    echo -e "────────────────────────"
-fi
-
 # Handles nonexistent commands.
 # If user has entered command which invokes non-available
 # utility, command-not-found will give a package suggestions.
