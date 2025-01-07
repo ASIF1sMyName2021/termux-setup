@@ -11,6 +11,9 @@ PROMPT_DIRTRIM=2
 # Bash Prompt
 source ~/.prompt.sh
 
+# Navigate to Openbox configuration directory
+alias config='cd ~/../usr/etc/xdg/openbox/'
+
 # Handles nonexistent commands.
 # If user has entered command which invokes non-available
 # utility, command-not-found will give a package suggestions.
@@ -19,3 +22,5 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
 	}
 fi
+
+# vi: nowrap
